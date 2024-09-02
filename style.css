@@ -1,0 +1,155 @@
+.nav-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 10rem;
+    align-items: center;
+  }
+  
+  .nav-container>.nav-link {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+  }
+  
+  .home-section {
+    height: 80vh;
+    background: url("./WhatsApp\ Image\ 2024-09-02\ at\ 10.57.39\ AM\ \(1\).jpeg"), lightblue;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-section>.title-container>.Main-title {
+    font-size: 20px;
+    font-family: "Vollkorn", Regular;
+    text-align: center;
+    color: white;
+  }
+  
+  .home-section>.title-container>.home-title {
+    padding: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: white;
+    font-size: 55px;
+    line-height: 5px;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    text-align: center;
+  }
+  
+  .home-section>.title-container>.title-para {
+    padding: 0;
+    margin-top: 40px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-family: "Vollkorn", serif;
+    font-optical-sizing: auto;
+    width: 640px;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .home-section>.title-container>.title-para2 {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    font-family: "Vollkorn", serif;
+    font-optical-sizing: auto;
+    width: 923px;
+    height: 91px;
+  }
+  
+  .home-section>.Button-container>.Button-title {
+    width: 240px;
+    height: 75px;
+    background-color: #00aa9e;
+    text-align: center;
+  }
+
+  .about-section {
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+  }
+  .about-section > .about-pictures {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    background-image: url(p5.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-blend-mode: darken;
+    height: 100%;
+  }
+  .p1git  {
+    width: 250px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+  
+  .p2 {
+    width: 250px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 400px;
+  }
+  .p3 {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 360px;
+  }
+  .p4 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 160px;
+  }
+  .about-section > .about-content {
+    width: 40%;
+    display: block;
+    background-repeat: no-repeat;
+    background-size:10%;
+    background-position: top-left;
+    height: 100%;
+    margin-top: 100px;
+    margin-left: -50px;
+  }
+  
+  .about-title {
+    margin-left: 30px;
+    margin-top: -30px;
+  }
+  .about-title1 {
+    width: 400px;
+    height: 80px;
+    line-height: 15px;
+    font-size: 25px;
+  }
+  .about-para {
+    width: 500px;
+    line-height: 20px;
+  }
+  .about-button {
+    background-color: #ee7c00;
+    color: white;
+    border: 0;
+    font-size: 16px;
+    width: 150px;
+    height: 50px;
+  }
